@@ -1,0 +1,24 @@
+<Application x:Class="JASS.AlbertaSeniorCompanion.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="Views/MainWindow.xaml">
+  <Application.Resources>
+    <SolidColorBrush x:Key="Blue" Color="#1769AA"/>
+    <SolidColorBrush x:Key="DarkBlue" Color="#123B5D"/>
+    <SolidColorBrush x:Key="SoftBlue" Color="#EAF4FB"/>
+    <SolidColorBrush x:Key="Green" Color="#247A52"/>
+    <SolidColorBrush x:Key="SoftGreen" Color="#EAF7F0"/>
+    <SolidColorBrush x:Key="Red" Color="#B3261E"/>
+    <SolidColorBrush x:Key="SoftRed" Color="#FCEDEC"/>
+    <SolidColorBrush x:Key="Gold" Color="#A66A00"/>
+    <SolidColorBrush x:Key="SoftGold" Color="#FFF6DD"/>
+    <SolidColorBrush x:Key="Text" Color="#1E293B"/>
+    <SolidColorBrush x:Key="Muted" Color="#64748B"/>
+    <Style TargetType="Button">
+      <Setter Property="Padding" Value="14,9"/>
+      <Setter Property="Margin" Value="4"/>
+      <Setter Property="FontSize" Value="15"/>
+      <Setter Property="Cursor" Value="Hand"/>
+    </Style>
+  </Application.Resources>
+</Application>
